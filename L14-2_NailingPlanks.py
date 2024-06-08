@@ -8,7 +8,7 @@ def solution(A, B, C):
     # minimal index of the original array of nails.
     def getMinIndex(startPlank, endPlank, nail, preIndex):
         min_v = 0
-        max_v = nail.length - 1
+        max_v = len(nail) - 1
         minIndex = -1
         while (min_v <= max_v):
             mid = (min_v + max_v) // 2
@@ -38,7 +38,7 @@ def solution(A, B, C):
     N = len(A)
     M = len(C)
     # two dimension array to save the original index of array C
-    sortedNail = [M][2]
+    sortedNail = [[0 for col in range(2)] for row in range(M)]
     for i in range(M):
         sortedNail[i][0] = C[i]
         sortedNail[i][1] = i
@@ -53,9 +53,6 @@ def solution(A, B, C):
         if (result == -1):
             return -1
     return result + 1
-
-
-
 
 
 A = [1,4,5,8]
