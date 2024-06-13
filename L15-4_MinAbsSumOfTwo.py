@@ -19,5 +19,4 @@ def solution(A):
 
 
 A = [-8,4,5,-10,3]
-# A=[1000000000]
 print(solution(A))

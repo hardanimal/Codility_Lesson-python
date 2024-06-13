@@ -16,5 +16,5 @@ def solution(N):
     return 2*(max_a+max_b)
 
 
-N=48
+N=30
 print(solution(N))

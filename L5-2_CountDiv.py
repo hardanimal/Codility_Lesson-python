@@ -8,7 +8,7 @@ def solution(A, B, K):
     return right - left
 
 
-A = 0
-B = 2000000000
-K = 1
+A = 6
+B = 11
+K = 2
 print(solution(A, B, K))

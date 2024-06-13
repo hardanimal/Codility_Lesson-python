@@ -12,5 +12,5 @@ def solution(A):
     return o_cnt
 
 
-A=[1,0,1,0,1,1,0,0]
+A=[0,1,0,1,1]
 print(solution(A))

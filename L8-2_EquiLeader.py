@@ -42,5 +42,5 @@ def solution(A):
     return equiCount
 
 
-A = 4,3,4,4,4,2
+A = [4,3,4,4,4,2]
 print(solution(A))

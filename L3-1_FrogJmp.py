@@ -9,7 +9,7 @@ def solution(X, Y, D):
         return (Y-X)//D+1
 
 
-X = 1
-Y = 5
-D = 2
+X = 10
+Y = 85
+D = 30
 print(solution(X, Y, D))

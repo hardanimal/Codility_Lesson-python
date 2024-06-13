@@ -52,5 +52,5 @@ def solution(A):
                     return blocks
     return max_blocks
 
-A=[]
+A=[1,2,3,4,3,4,1,2,3,4,6,2]
 print(solution(A))

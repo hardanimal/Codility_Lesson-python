@@ -11,6 +11,4 @@ def solution(A):
 
 
 A = [1, 3, 6, 4, 1, 2]
-A = [1, 3, 6, 4, 5, 2]
-# A = [-1,-3]
 print(solution(A))
