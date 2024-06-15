@@ -6,7 +6,6 @@ def solution(H):
     stone_count=0
     stone_list=[]
     for i in H:
-        print(i, stone_count, stone_list)
         while len(stone_list) !=0 and stone_list[-1]>i:
             stone_list.pop(-1)
             stone_count+=1
@@ -14,6 +13,7 @@ def solution(H):
             stone_list.append(i)
     stone_count+=len(stone_list)
     return stone_count
+
 
 H = [8,8,5,7,9,8,7,4,8]
 print(solution(H))

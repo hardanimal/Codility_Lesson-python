@@ -10,10 +10,8 @@ def solution(S):
         else:
             map_right.append(c)
             if len(map_left)!=0: map_left.pop(); map_right.pop()
-        print(map_left, map_right)
     return 1 if len(map_left)==0 and len(map_right)==0 else 0
 
 
-S="(()(())())"
-S="())"
+S = "(()(())())"
 print(solution(S))
