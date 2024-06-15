@@ -8,5 +8,5 @@ def solution(A):
     return (B[-1]*B[-2]*B[-3])
 
 
-A= [-3,1,2,-2,5,6]
+A = [-3,1,2,-2,5,6]
 print(solution(A))

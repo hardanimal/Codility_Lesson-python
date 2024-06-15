@@ -16,5 +16,5 @@ def solution(S):
     return 0 if match_result else 1
 
 
-S="{[()()]}"
+S = "{[()()]}"
 print(solution(S))

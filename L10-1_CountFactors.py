@@ -15,5 +15,5 @@ def solution(N):
     return len(l)
 
 
-N=24
+N = 24
 print(solution(N))

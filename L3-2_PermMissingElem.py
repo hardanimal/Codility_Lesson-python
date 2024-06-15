@@ -15,5 +15,5 @@ def solution(A):
     return start
 
 
-A=[2,3,1,5]
+A = [2,3,1,5]
 print(solution(A))

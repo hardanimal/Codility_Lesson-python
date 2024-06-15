@@ -9,6 +9,5 @@ def solution(A):
     return i+1
 
 
-
 A = [1, 3, 6, 4, 1, 2]
 print(solution(A))

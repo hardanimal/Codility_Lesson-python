@@ -18,5 +18,5 @@ def solution(A):
     return minAbsSum
 
 
-A = [-8,4,5,-10,3]
+A = [1,4,-3]
 print(solution(A))

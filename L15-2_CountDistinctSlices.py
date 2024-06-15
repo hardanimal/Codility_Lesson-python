@@ -22,6 +22,6 @@ def solution(M, A):
     return numSlice
 
 
-M=6
-A = 3,4,5,5,2
+M = 6
+A = [3,4,5,5,2]
 print(solution(M, A))

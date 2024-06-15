@@ -43,7 +43,7 @@ def solution(N, P, Q):
     return result
 
 
-N=26
+N = 26
 P = [1,4,16]
 Q = [26,10,20]
 print(solution(N,P,Q))

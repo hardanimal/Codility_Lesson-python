@@ -9,5 +9,5 @@ def solution(A):
     return 1
 
 
-A=[4,1,3]
+A = [4,1,3]
 print(solution(A))

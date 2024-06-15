@@ -10,5 +10,5 @@ def solution(A):
     return rtn
 
 
-A=[10,2,5,1,8,20]
+A = [10,2,5,1,8,20]
 print(solution(A))

@@ -9,6 +9,5 @@ def solution(A):
     return len(list(set(list_A)))
         
 
-
 A = [-5,-3,-1,0,3,6]
 print(solution(A))

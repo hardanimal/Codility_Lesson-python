@@ -12,5 +12,5 @@ def solution(A):
     return list(map_A)[0]
 
 
-A=[9,3,9,3,9,7,9]
+A = [9,3,9,3,9,7,9]
 print(solution(A))

@@ -19,5 +19,5 @@ def solution(N):
     return gap_max
 
 
-A=1041
+A = 1041
 print(solution(A))

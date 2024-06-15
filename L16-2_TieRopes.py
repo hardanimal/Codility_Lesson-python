@@ -15,6 +15,6 @@ def solution(K, A):
     return cnt
 
 
-K=4
-A=[1,2,3,4,1,1,3]
+K = 4
+A = [1,2,3,4,1,1,3]
 print(solution(K, A))
